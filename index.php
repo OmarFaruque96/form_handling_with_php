@@ -1,7 +1,8 @@
 <?php
 
 	//database connection code 
-
+	include('connection.php');
+	
 	if(isset($_POST['submit'])){
 
 			//store the user input data into some variables 
